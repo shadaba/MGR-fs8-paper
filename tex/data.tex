@@ -1,0 +1,55 @@
+\section{Observations} 
+\label{sec:data} 
+
+
+We are using measurements of $C_l$ from Planck 2013 \citep{planckI}combined with the measurement of $f(z)\sigma_8(z)$ from various redshift surveys covering between $z=0.06$ to $z=0.8$ listed in Table \ref{tbl:fs8} as our main data points. We briefly describe each of the survey and $f\sigma_8$ measurement.
+
+\textcolor{red}{correlation between different data point. Does it makes sense to say that fraction of overlapping volume gives the correlation between the measurement in the table. The measurement used has negligible overlapping volume!!}
+
+\begin{table}
+\begin{center}
+\caption{Measurement of $f(z)\sigma_8(z)$ from various galaxy redshift survey covering redshift between 0.06 to 0.8.}
+\label{tbl:fs8}
+\begin{tabular}{llll}
+\hline
+z              & $f\sigma_8(z)$ & 1/k[h /Mpc] & Survey  \\
+\hline
+\hline
+0.067   & $0.42 \pm 0.05$     & 16.0 --30   & 6dFGRS(2012) \\
+0.17     & $0.51 \pm 0.06$     &  6.7  -- 50  & 2dFGRS(2004)\\
+0.22     & $0.42 \pm 0.07$     &  3.3  -- 50  & WiggleZ(2011) \\
+0.25     & $0.35 \pm 0.06$     &  30 -- 200  & SDSS LRG (2011) \\
+0.37     & $0.46 \pm 0.04$     &  30 -- 200  & SDSS LRG(2011)\\
+0.41     & $0.45 \pm 0.04$     &  3.3 -- 50   & WiggleZ(2011)\\
+0.57     & $0.462 \pm 0.041$     &  25 --130   & BOSS CMASS\\
+0.6       & $0.43 \pm 0.04$     &  3.3 -- 50   & WiggleZ(2011) \\
+0.78     & $0.38 \pm 0.04$     &  3.3 -- 50   & WiggleZ(2011)\\
+0.8       & $0.47 \pm 0.08$     &  6.0 -- 35   & Vipers(2013) \\
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{6dFGRS}
+The 6dFGRS (6 degree field galaxy redshift survey have observed 125000 galaxy in near infrared band across 4/5th of southern sky \cite{Jones2009}. The survey covers redshift range $0<z<0.18$, and has efective volume equivalent to 2dFGRS \citep{2dFGRS} galaxy survey. The redshift space distortion(RSD) measurement was obtained using a subsample of the survey consisting of 81971 galaxies \citep{6dFGRS}. The measurement of $f\sigma_8$ was obtained by fitting 2D correlation function using streaming model and fitting range 16-30 Mpc/h. The Alcock-Paczynski effect has been taken into account and it has a negligible effect. The final measurement uses WMAP7 \citep{Wmap2013} likelihood in the analysis. To be able to use this data point we need to account for the transformation to the planck best fit cosmology. 
+
+\subsection{2dFGRS}
+The 2dFGRS (2 degree field galaxy redshift survey) obtained spectra for 221414 galaxies in visible band on the southern sky \citep{Colless2003}. The survey covers redshift range $0<z<0.25$ and has effective area of 1500 square degree. The redshift space distortion measurement was obtained by linearly modeling the observed distortion after splitting the over-density into radial and angular components \citep{2dFGRS}. The parameters were fixed at different values $n_s=1.0$ ,$H_0=72$. The results were marginalized over power spectrum amplitude and $b\sigma_8$.  We are not using this measurement in out analysis for two reasons. \textcolor{red}{First the survey has huge overlap with 6dFGRS which will lead to strong correlation between the two measurement and second the cosmology assumed is quite far from WMAP7 and Planck where our linear theory approximation to shift the cosmology might fail.}
+
+
+\subsection{WiggleZ}
+The WiggleZ Dark Energy Survey is a large scale galaxy redshift survey of bright emission line galaxies. It has obtained spectra for around 200,000 galaxies. The survey covers redshift range $0.2 <z <1.0$ and covering effective area of 800 square degree of equatorial sky \citep{WiggleZ}. The redshift space distortion(RSD) measurement was obtained using a sub-sample of the survey consisting of 152,117 galaxies. The final result was obtained by fitting the power spectrum using \citet{Jennings2011} model in four non-overlapping slices of redshift. The measured growth rate is $f\sigma_8(z)=( 0.42 \pm 0.07, 0.45 \pm 0.04, 0.43 \pm 0.04, 0.38 \pm 0.04)$ at effective redshift $z=(0.22, 0.41, 0.6, 0.78)$ with non-overlaping redshift slices of $z_{slice}=([0.1,0.3],[0.3,0.5],[0.5,0.7],[0.7,0.9])$ respectively. We can assume the covariance between the different measurement to be zero because they have zero overlapping volume.
+
+
+\subsection{SDSS-LRG}
+The Sloan Digital Sky Survey (SDSS) data release 7 (DR7) is a large-scale galaxy redshift survey of Luminous Red Galaxies (LRG) \citep{Eisenstein2011}. The DR7 has obtained spectra of 106,341 LRGs covering 10,000 square degree in redshift range $0.16<z<0.44$.The RSD measurement was obtained by modeling monopole and quadruple moment of galaxy auto-correlation function using linear theory. The data was divided in two redshift bins $0.16<z<0.32$ and $0.32<z<0.44$. The measurement of growth rate are $f\sigma_8(z)=(0.3512 \pm 0.0583, 0.4602 \pm 0.0378)$ at effective redshift of 0.25 and 0.37 respectively \citep{SDSSLRG2012}. These measurements are independent because there is no overlapping volume between the two redshift slice.
+
+\subsection{BOSS CMASS}
+Sloan Digital Sky Survey (SDSS) Baryon Oscillation Spectroscopic Survey (BOSS; \citet{Dawson2013}) targets high redshift ($0.4 < z < 0.7$) galaxies using a set of color-magnitude cuts. The growth rate measurement uses the CMASS sample of galaxies \citep{Bolton2012} from data release 11 \citep{Alam2014}. The CMASS sample has 690,826 Luminous Red Galaxies (LRGs) covering 8498 square degrees in the redshift range $0.43<z<0.70$, which correspond to an effective volume of 6 Gpc$^{3}$. The $f\sigma_8$ is measured by modeling the monopole and quadruple moment of galaxy auto-correlation using Convolution Lagrangian Perturbation Theory (CLPT; \citet{Carlson12}) in combination with Gaussian Streaming model \citep{Wang13}. The reported measurement of growth rate is $f\sigma_8=0.462 \pm 0.041$ at effective redshift of $0.57$ \citep{Alam2015}.
+
+\subsection{VIPERS}
+VIMOS Public Extragalactic Redshift Survey (VIPERS,\cite{Vipers}) is a high redshift small area galaxy redshift survey.  It has obtained spectra for 55,358 galaxies covering 24 square degree in the sky from redshift range $0.4<z<1.2$.  The measurement of growth factor uses 45,871 galaxies covering the redshift range $0.7<z,1.2$.
+The $f\sigma_8$  measurement is obtained by modeling the monopole and quadruple moments of galaxy auto-correlation function between the scale 6 h$^{-1}$Mpc and 35 h$^{-1}$Mpc. They have reported $f\sigma_8=0.47 \pm 0.08$ at effective redshift of 0.8. 
+
+\subsection{Planck CMB}
+Planck is a space mission dedicated to measurement of CMB anisotropies.  It is the third-generation of CMB experiment following COBE and WMAP. The primary aim of the mission is to measure the temperature and polarization anisotropies over the entire sky. The Planck mission provide a high resolution map of CMB anisotropy which is used to measure angular power spectrum $C_\ell$ at the last scattering surface. The Planck measurement helps us constrain the background cosmology to unprecedented precision. We are using the CMB measurement from planck satellite in order to constrain cosmology. We have assumed that the Planck measurement is independent of the measurement of growth rate from various galaxy redshift survey.
+

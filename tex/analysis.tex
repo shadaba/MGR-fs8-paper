@@ -1,0 +1,14 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Analysis} 
+\label{sec:analysis} 
+
+We have measurement of $f\sigma_8$ from various survey covering redshift range 0.06-0.8 (see Table: \ref{tbl:fs8}). We first correct these measurement for the shift from WMAP cosmology to planck cosmology as described in section(\ref{sec:fidcosmo}). The next step is to evaluate prediction from different modified gravity theory by evolving full set of linear perturbation equation. The theoretical predictions for $f\sigma_8$ is generally scale and redshift dependent. Therefore, We consider two case for theoretical prediction which is to evaluate $f\sigma_8$ at 1) effective $k$ and  2) average over $k$. We also predict $C_l^{TT}$ for different modified gravity theory and finally define our likelihood, which consist of two parts one  by matching planck temperature fluctuation $C_l^{TT}$ and other by matching growth factor from Table \ref{tbl:fs8}. Therefore we define the likelihood as follow:
+
+\begin{align}
+\mathcal{L} &= \mathcal{L}_{planck} \mathcal{L}_{f\sigma_8} \\
+\mathcal{L}_{f\sigma_8} &= e^ {-\chi^2_{f\sigma_8}/2} \\
+\chi^2_{f\sigma_8} &= \Delta f \sigma_8 C^{-1} \Delta f\sigma_8^{T}
+\end{align}
+
+The $\Delta f\sigma_8$ is the deviation of theoretical prediction from the mesurement and $C^{-1}$ is the covariance which has diagonal error for different survey and correlation between measurement as described in section[\ref{sec:corr}]. This Likelihood is sampled using modified version of COSMOMC \citep{cosmomc,Hojjati2011}. We are sampling over 6 cosmology parameter \{$\Omega_b h^2, \Omega_c h^2, 100\Theta_{MC} ,\tau, n_s, log(10^{10} A_s) $\} and all the 18 planck nuisance parameter as described in \citet{Planck2013} with the respective extension parameters or modified gravity parameters. We have used prior on all of the parameter same as the priors given in \citet{Planck2013} and the prior on parameters of modified gravity model is given in Table :[\ref{tbl:prior}].

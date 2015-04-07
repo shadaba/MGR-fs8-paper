@@ -1,0 +1,78 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Potential Systematics} 
+The modified gravity theories considered in this paper have additional free parameter which provide extra degree of freedom while predicting  evolution of growth factor compared to General Relativity. The $f\sigma_8$ measurement we are using in this analysis have been measured over last decade using completely different data and analysis pipeline as part of various different survey. It is important to account for some crucial differences in order to use these measurements in our analysis. We have looked at following different aspect of measurement and theoretical prediction before using them in our analysis.
+
+\subsection{Fiducial Cosmology of the growth rate ($f\sigma_8$)}
+\label{sec:fidcosmo}
+The measurements of $f\sigma_8$ is done over the time when we had transition from WMAP best fit cosmology to the Planck  best fit cosmology. Since we are using Planck likelihood in our analysis, We have decided to convert all the measurement to planck cosmology.
+The 3 dimensional correlation function can be transformed from WMAP to the planck cosmology by using Alcock-Paczynski effect (\citet{AP79}).
+\begin{equation}
+\xi_{planck}(r_\parallel ,r_\perp,\phi) =\xi_{WMAP}(\alpha_\parallel r_\parallel ,\alpha_\perp r_\perp,\phi)
+\end{equation}
+
+Where $\alpha_\parallel$ is the ratio of hubble parameter ($\alpha_\parallel=H_{WMAP}/H_{planck} $) and $\alpha_\perp$ is the ratio of angular diameter distance ( $\alpha_\perp=D_A^{planck}/D_A^{WMAP}$). The $r_\parallel$, $r_\perp$ are pair separation along line of sight and perpendicular to the line of sight and $\phi$ is the angular position of pair separation vector in the plane perpendicular to the line of sight from a reference direction. In practice the correlation function is isotropic along $\phi$.
+We can calculate the corresponding power spectrum by applying Fourier transform to correlation function.
+
+\begin{align}
+P_{planck}(k_\parallel,k_\perp,k_\phi) &= \int dr_\parallel dr_\perp r_\perp d\phi \xi_{planck}(r_\parallel ,r_\perp,\phi) e^{-i\vec{k}.\vec{r}} \\
+     &= \int dr'_\parallel dr'_\perp \frac{r'_\perp}{\alpha_\parallel \alpha_\perp^2} \xi_{WMAP}(r'_\parallel ,r'_\perp,\phi) e^{-i\vec{k'}.\vec{r'}} \\
+     &= \frac{P_{WMAP}(k_\parallel/\alpha_\parallel ,k_\perp/ \alpha_\perp,k_\phi)}{\alpha_\parallel \alpha_\perp^2}
+\end{align}
+
+The kaiser formula for RSD gives the redshift space correlation function as $P_g^s(k,\mu) = b^2 P_m(k) (1 + \beta \mu^2)^2$ \cite{kaiser}. Using the linear theory kaiser prediction and above approximation between WMAP and planck power spectrum We can get a relation to transform the growth function from WMAP to planck cosmology.
+
+\begin{align}
+\frac{1+\beta_{planck} \mu'^2}{1+\beta_{WMAP} \mu^2} &= C \sqrt{\frac{P_{planck}(k',\mu')}{P_{WMAP}(k,\mu)}} \\
+          &= C \sqrt{\frac{1}{\alpha_\parallel \alpha_\perp^2}} 
+\label{eqn:beta1}
+\end{align}
+
+Where $C$ is the ratio of isotropic matter power spectrum with WMAP and planck cosmology  integrated over scale used in $\beta$ measurement.
+
+\begin{equation}
+C = \int_{k_1}^{k_2} dk \sqrt{\frac{P_{WMAP}^{m}(k)}{P_{planck}^{m}(k')}} 
+\end{equation}
+
+When right hand side of equaion(\ref{eqn:beta1}) is close to 1 then we can approximate the above equation as follow.
+
+\begin{equation}
+\beta_{planck} = \beta_{WMAP} C \frac{\mu^2}{\mu'^2} \sqrt{\frac{1}{\alpha_\parallel \alpha_\perp^2}} 
+\label{eqn:beta2}
+\end{equation}
+
+The ratio $\frac{\mu^2}{\mu'^2}$ can be obtained using simple trigonometry which gives following equation, where the last equation is aprroximation for $\alpha_\parallel^2 \approx \alpha_\perp^2$.
+
+\begin{equation}
+\frac{\mu^2}{\mu'^2} =\alpha_\perp^2 +(\alpha_\parallel^2 -\alpha_\perp^2) \mu^2 \approx \alpha_\perp^2
+\label{eqn:muratio}
+\end{equation}
+
+we can substitute equation(\ref{eqn:muratio}) in equation(\ref{eqn:beta2}) in order to get the required scaling for $f$(growth factor) assuming that bias measured is proportional to the $\sigma_8$ of the cosmology used.
+
+\begin{equation}
+\beta_{planck}=\beta_{WMAP} C \sqrt{\frac{\alpha_\perp^2}{\alpha_\parallel} }
+\end{equation}
+
+\begin{equation}
+{f\sigma_8}_{planck} = {f\sigma_8}_{WMAP} C \sqrt{\frac{\alpha_\perp^2}{\alpha_\parallel} } \left(\frac{\sigma_8^{planck}}{\sigma_8^{WMAP}} \right)^2
+\label{eqn:fs8}
+\end{equation}
+
+We have tested prediction of equation (\ref{eqn:fs8}) against the measurement of $f\sigma_8$ reported in Table 2 of \citet{Alam2015} at redshift 0.57 using both Planck and WMAP cosmology.
+
+\subsection{Scale dependence}
+
+The General Relativity predicts scale independent evolution of matter density field by predicting scale independent growth factor. One of the important feature of the modified gravity theories we are considering is that they predict a scale dependent growth factor which has a transition from high to low growth at certain scale which depends on the redshift $z$  and the model parameters. 
+The mesurement we have from all the survey assumes a scale-independent $f\sigma_8$ and use characterisitic length scale while analysing data. In order to account for all this effect we have done our analysis in two different ways. In the first method, we assume that the measurement correspond to an effective k and in the second method, we treat the average theoretical prediction over range of $k$ used in  $f\sigma_8$  analysis.
+
+%
+%\subsection{redshift of the mesurement}
+%The different survey has different redshift coverage and the mesurement are reported at effective redshift \textcolor{red}{ maybe it will be good to have a plot of redshift coverage for different survey}. The $f\sigma_8$ has similar redshift evolution for all the modified gravity theory. We have are using effective redshift of the mesurement to evaluate our theoretical prediction. We have also looked at the effect of averaging the theoretical prediction over the redshift coverage of the survey with the weighting as galaxy number density o the survey. \textcolor{red}{Either explain the result of this here or refer to the section where this will be explained}
+
+\subsection{Assumption of GR in the survey analysis}
+Generally all these measurement are independent of model of gravityand should be good to test alternate gravity model \textcolor{red}{explain how?}
+
+
+Anything else!!
+worry about systematic effects

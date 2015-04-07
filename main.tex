@@ -1,0 +1,103 @@
+\documentclass[useAMS,usenatbib]{mn2e}
+\usepackage{graphicx}
+\usepackage{amssymb, amsmath}
+\usepackage{times}
+\usepackage{color}
+\usepackage{lscape}
+\usepackage[section]{placeins}
+%\usepackage{epstopdf}
+%\usepackage{auto-pst-pdf}
+
+\usepackage{lineno}
+% \usepackage{setspace}
+%\usepackage{mn2e-breakabs}
+
+\voffset -2.5cm
+
+
+%%%%% Convenience macros %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\renewcommand{\vec}[1]{\mathbf{#1}}
+\newcommand{\vr}{\vec{r}}
+\newcommand{\vq}{\vec{q}}
+\newcommand{\vx}{\vec{x}}
+\newcommand{\vk}{\vec{k}}
+\newcommand{\vPsi}{\vec{\Psi}}
+\newcommand{\vDelta}{\vec{\Delta}}
+\newcommand{\hq}{\hat{q}}
+\newcommand{\hk}{\hat{k}}
+\newcommand{\hz}{\hat{z}}
+\newcommand{\mJ}{\mathcal{J}}
+\newcommand{\lam}{\lambda}
+
+% --- journals --- %
+\newcommand{\aj}{AJ}
+\newcommand{\apj}{ApJ}
+\newcommand{\apjs}{ApJ Suppl.}
+\newcommand{\mnras}{MNRAS}
+\newcommand{\araa}{ARA{\&}A}
+\newcommand{\aap}{A{\&}A}
+\newcommand{\pre}{PRE}
+\newcommand{\prd}{Phys. Rev. D}
+\newcommand{\apjl}{ApJL}
+\newcommand{\physrep}{Physics Reports}
+\newcommand{\nat}{Nature}
+
+
+\begin{document}
+
+%%%%% Front Matter %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title[LSS $f\sigma_8+CMB$]{Testing Modified gravity with CMB data and growth rate from Large Scale Structure Survey}
+\author[Alam et al.] {
+    Shadab Alam$^{1,2}$, Shirley Ho$^{1,2}$,  
+    Alessandra Silvestri$^{3}$  \\
+    $^{1}$ Departments of Physics, Carnegie Mellon University, 5000 Forbes Ave., Pittsburgh, PA 15217 \\
+    $^{2}$ McWilliams Center for Cosmology, Carnegie Mellon University, 5000 Forbes Ave., Pittsburgh, PA 15217 \\
+    $^{3}$ SISSA - International School for Advanced Studies, Via Bonomea 265, 34136, Trieste, Italy }
+    
+\date{\today}
+\pagerange{\pageref{firstpage}--\pageref{lastpage}}   \pubyear{2015}
+\maketitle
+\label{firstpage}
+
+
+
+%\label{firstpage}
+\input{tex/abstract}
+
+\begin{keywords}
+    gravitation; modified gravity;
+    galaxies: statistics;
+    cosmological parameters;
+    large-scale structure of Universe
+\end{keywords}
+
+%%%%% Main Text %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{tex/intro}
+
+\input{tex/theory}
+
+\input{tex/data}
+
+\input{tex/systematic}
+
+\input{tex/analysis}
+
+\input{tex/result}
+
+\input{tex/discussion}
+
+%%%%% Bibliography %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\setlength{\bibhang}{2.0em}
+%\setlength\labelwidth{0.0em}
+
+
+\bibliography{../Master_Shadab}
+\bibliographystyle{mnras}
+%\input{bibliography}
+%
+
+\label{lastpage}
+
+\end{document}

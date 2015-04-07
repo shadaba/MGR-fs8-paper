@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: mnras.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ../Master_Shadab.bib
+Warning--I didn't find a database entry for "kaiser"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no journal in Eric2014
+ptr=1, stack=
+, 2014
+---the literal stack isn't empty for entry Eric2014
+while executing---line 2933 of file mnras.bst
+Warning--empty publisher in Peebles1980
+You've used 41 entries,
+            2174 wiz_defined-function locations,
+            756 strings with 24678 characters,
+and the built_in function-call counts, 33527 in all, are:
+= -- 3828
+> -- 2183
+< -- 0
++ -- 957
+- -- 963
+* -- 3026
+:= -- 5043
+add.period$ -- 0
+call.type$ -- 41
+change.case$ -- 1075
+chr.to.int$ -- 39
+cite$ -- 43
+duplicate$ -- 1295
+empty$ -- 1043
+format.name$ -- 1049
+if$ -- 6305
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 126
+num.names$ -- 164
+pop$ -- 1060
+preamble$ -- 1
+purify$ -- 1157
+quote$ -- 0
+skip$ -- 1380
+stack$ -- 0
+substring$ -- 1153
+swap$ -- 662
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 324
+warning$ -- 2
+while$ -- 118
+width$ -- 0
+write$ -- 487
+(There was 1 error message)

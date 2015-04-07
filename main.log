@@ -1,0 +1,536 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  6 APR 2015 22:39
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(./mn2e.cls
+Document Class: mn2e 2001/02/06 v2.2 LaTeX2e MN document class
+Document Style `MN' v2.2, released 2001 February 20
+\math@groups=\toks14
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/cmsy/b/n on input line 223.
+\symbmisymbols=\mathgroup4
+\symUPM=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `UPM' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 260.
+\symAMSa=\mathgroup6
+\SFB@measure=\dimen102
+\realparindent=\skip41
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\@indentskip=\skip42
+\smallindent=\skip43
+\@footindent=\skip44
+\@leftskip=\skip45
+\c@dummy=\count85
+(/usr/local/texlive/2013/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count86
+)
+\c@table=\count87
+\c@figure=\count88
+\mathindent=\dimen103
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 59.
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen106
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks18
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks19
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks20
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count102
+\output=\toks22
+\linenoprevgraf=\count103
+\linenumbersep=\dimen115
+\linenumberwidth=\dimen116
+\c@linenumber=\count104
+\c@pagewiselinenumber=\count105
+\c@LN@truepage=\count106
+\c@internallinenumber=\count107
+\c@internallinenumbers=\count108
+\quotelinenumbersep=\dimen117
+\bframerule=\dimen118
+\bframesep=\dimen119
+\bframebox=\box28
+LaTeX Info: Redefining \\ on input line 3056.
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 46.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen120
+\scratchbox=\box29
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen121
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks24
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+LaTeX Font Info:    Try loading font information for U+eur on input line 60.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/ueur.fd
+File: ueur.fd 2013/01/14 v3.01 Euler Roman
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 60.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 60.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(./tex/abstract.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
+ (./tex/intro.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./tex/theory.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 8.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
+ [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]) (./tex/data.tex
+Underfull \hbox (badness 1184) in paragraph at lines 40--41
+\OT1/ptm/m/n/9 spec-tra for around 200,000 galax-ies. The sur-vey cov-ers red-
+ []
+
+[2]) (./tex/systematic.tex
+Underfull \hbox (badness 3872) in paragraph at lines 14--16
+[]\OT1/ptm/m/n/9 Where $\OML/cmm/m/it/9 []$ \OT1/ptm/m/n/9 is the ra-tio of hu
+b-ble pa-ram-e-ter ($\OML/cmm/m/it/9 [] \OT1/cmr/m/n/9 =
+ []
+
+
+Overfull \hbox (10.57639pt too wide) in paragraph at lines 21--21
+[] 
+ []
+
+
+Package natbib Warning: Citation `kaiser' on page 3 undefined on input line 23.
+
+
+[3]) (./tex/analysis.tex
+
+LaTeX Warning: Reference `sec:corr' on page 4 undefined on input line 14.
+
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+
+LaTeX Warning: Reference `tbl:prior' on page 4 undefined on input line 14.
+
+) (./tex/result.tex <plots/fs8z_data_bestfit.png, id=31, 578.16pt x 433.62pt>
+File: plots/fs8z_data_bestfit.png Graphic file (type png)
+
+<use plots/fs8z_data_bestfit.png>
+Package pdftex.def Info: plots/fs8z_data_bestfit.png used on input line 5.
+(pdftex.def)             Requested size: 252.0pt x 189.00032pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 5--6
+[][] 
+ []
+
+<plots/Like-2D/All-sigma8-omegam_2D.png, id=33, 710.4141pt x 710.4141pt>
+File: plots/Like-2D/All-sigma8-omegam_2D.png Graphic file (type png)
+
+<use plots/Like-2D/All-sigma8-omegam_2D.png>
+Package pdftex.def Info: plots/Like-2D/All-sigma8-omegam_2D.png used on input l
+ine 11.
+(pdftex.def)             Requested size: 252.0pt x 251.99821pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 11--12
+[][] 
+ []
+
+[4 <./plots/fs8z_data_bestfit.png> <./plots/Like-2D/All-sigma8-omegam_2D.png>]
+<plots/planck-RSD-GR-sigma8.png, id=40, 578.16pt x 433.62pt>
+File: plots/planck-RSD-GR-sigma8.png Graphic file (type png)
+
+<use plots/planck-RSD-GR-sigma8.png>
+Package pdftex.def Info: plots/planck-RSD-GR-sigma8.png used on input line 25.
+(pdftex.def)             Requested size: 151.20154pt x 113.40019pt.
+
+<plots/planck-RSD-GR-tau.png, id=41, 578.16pt x 433.62pt>
+File: plots/planck-RSD-GR-tau.png Graphic file (type png)
+
+<use plots/planck-RSD-GR-tau.png>
+Package pdftex.def Info: plots/planck-RSD-GR-tau.png used on input line 26.
+(pdftex.def)             Requested size: 151.20154pt x 113.40019pt.
+
+<plots/planck-RSD-GR-ns.png, id=42, 578.16pt x 433.62pt>
+File: plots/planck-RSD-GR-ns.png Graphic file (type png)
+
+<use plots/planck-RSD-GR-ns.png>
+Package pdftex.def Info: plots/planck-RSD-GR-ns.png used on input line 27.
+(pdftex.def)             Requested size: 151.20154pt x 113.40019pt.
+
+<plots/planck-RSD-GR-omegal.png, id=43, 578.16pt x 433.62pt>
+File: plots/planck-RSD-GR-omegal.png Graphic file (type png)
+
+<use plots/planck-RSD-GR-omegal.png>
+Package pdftex.def Info: plots/planck-RSD-GR-omegal.png used on input line 28.
+(pdftex.def)             Requested size: 151.20154pt x 113.40019pt.
+
+<plots/planck-RSD-GR-omegam.png, id=44, 578.16pt x 433.62pt>
+File: plots/planck-RSD-GR-omegam.png Graphic file (type png)
+
+<use plots/planck-RSD-GR-omegam.png>
+Package pdftex.def Info: plots/planck-RSD-GR-omegam.png used on input line 29.
+(pdftex.def)             Requested size: 151.20154pt x 113.40019pt.
+
+<plots/planck-RSD-GR-H0.png, id=45, 578.16pt x 433.62pt>
+File: plots/planck-RSD-GR-H0.png Graphic file (type png)
+
+<use plots/planck-RSD-GR-H0.png>
+Package pdftex.def Info: plots/planck-RSD-GR-H0.png used on input line 30.
+(pdftex.def)             Requested size: 151.20154pt x 113.40019pt.
+
+<plots/Like-2D/wCDM-omegam-w_2D.png, id=46, 1069.596pt x 1072.4868pt>
+File: plots/Like-2D/wCDM-omegam-w_2D.png Graphic file (type png)
+
+<use plots/Like-2D/wCDM-omegam-w_2D.png>
+Package pdftex.def Info: plots/Like-2D/wCDM-omegam-w_2D.png used on input line 
+37.
+(pdftex.def)             Requested size: 252.0pt x 252.67265pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 37--38
+[][] 
+ []
+
+<plots/Like-2D/w0wa-w-wa_2D.png, id=47, 1071.0414pt x 1072.4868pt>
+File: plots/Like-2D/w0wa-w-wa_2D.png Graphic file (type png)
+
+<use plots/Like-2D/w0wa-w-wa_2D.png>
+Package pdftex.def Info: plots/Like-2D/w0wa-w-wa_2D.png used on input line 47.
+(pdftex.def)             Requested size: 252.0pt x 252.329pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 47--48
+[][] 
+ []
+
+<plots/Like-2D/kCDM-omegam-omegak_2D.png, id=48, 1073.2095pt x 1072.4868pt>
+File: plots/Like-2D/kCDM-omegam-omegak_2D.png Graphic file (type png)
+
+<use plots/Like-2D/kCDM-omegam-omegak_2D.png>
+Package pdftex.def Info: plots/Like-2D/kCDM-omegam-omegak_2D.png used on input 
+line 59.
+(pdftex.def)             Requested size: 252.0pt x 251.82169pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 59--60
+[][] 
+ []
+
+<plots/Like-2D/ChamB1-omegam-B1_2D.png, id=49, 1071.0414pt x 1072.4868pt>
+File: plots/Like-2D/ChamB1-omegam-B1_2D.png Graphic file (type png)
+
+<use plots/Like-2D/ChamB1-omegam-B1_2D.png>
+Package pdftex.def Info: plots/Like-2D/ChamB1-omegam-B1_2D.png used on input li
+ne 70.
+(pdftex.def)             Requested size: 252.0pt x 252.329pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 70--71
+ [] 
+ []
+
+[5 <./plots/Like-2D/wCDM-omegam-w_2D.png> <./plots/Like-2D/w0wa-w-wa_2D.png>]
+<plots/Like-2D/Lind-omegam-Linder_gamma_2D.png, id=55, 1071.7641pt x 1072.4868p
+t>
+File: plots/Like-2D/Lind-omegam-Linder_gamma_2D.png Graphic file (type png)
+ <use plots/Like-2D/Lind-omegam-Linder_gamma_2D.png>
+Package pdftex.def Info: plots/Like-2D/Lind-omegam-Linder_gamma_2D.png used on 
+input line 94.
+(pdftex.def)             Requested size: 252.0pt x 252.16534pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 94--95
+ [] 
+ []
+
+[6 <./plots/planck-RSD-GR-sigma8.png> <./plots/planck-RSD-GR-tau.png> <./plots/
+planck-RSD-GR-ns.png> <./plots/planck-RSD-GR-omegal.png> <./plots/planck-RSD-GR
+-omegam.png> <./plots/planck-RSD-GR-H0.png> <./plots/Like-2D/kCDM-omegam-omegak
+_2D.png> <./plots/Like-2D/ChamB1-omegam-B1_2D.png>]
+<plots/Like-2D/fR-omegam-lambda1_2_2D.png, id=67, 998.0487pt x 1072.4868pt>
+File: plots/Like-2D/fR-omegam-lambda1_2_2D.png Graphic file (type png)
+
+<use plots/Like-2D/fR-omegam-lambda1_2_2D.png>
+Package pdftex.def Info: plots/Like-2D/fR-omegam-lambda1_2_2D.png used on input
+ line 117.
+(pdftex.def)             Requested size: 252.0pt x 270.7885pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 117--118
+ [] 
+ []
+
+) (./tex/discussion.tex
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 13.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)) (./main.bbl
+[7 <./plots/Like-2D/Lind-omegam-Linder_gamma_2D.png> <./plots/Like-2D/fR-omegam
+-lambda1_2_2D.png>])
+
+Package natbib Warning: There were undefined citations.
+
+[8
+
+] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3643 strings out of 493315
+ 49226 string characters out of 6137904
+ 118404 words of memory out of 5000000
+ 6965 multiletter control sequences out of 15000+600000
+ 39259 words of font info for 97 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,11n,34p,1807b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/loca
+l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2013/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/urw/courier/ucrr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/
+times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr
+8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (8 pages, 1337573 bytes).
+PDF statistics:
+ 145 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+
