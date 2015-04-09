@@ -1,11 +1,28 @@
 \section{Theory}
 \label{sec:theory}
 
-We have studied three different parametrization of f(R) gravity in this paper.
-1) f(R) gravity with one parameter $B_o$ related to the compton scattering length.
-2) sclar-tensot chameleon type theory
-3) Linder's parametrization.
+In exploring the power of RSD data to constrain deviations from the standard cosmological scenario,  we consider several alternative models,  divided into dark energy models that modify the background expansion history without introducing any clustering degree of freedom, and those that instead modify only the dynamics of perturbations while keeping the background fixed to $\Lambda$CDM.  In the former case we consider one and two parameter extensions of the standard scenario, corresponding to different equations of state for dark energy or a non zero spatial curvature. More specifically we consider: a $w$CDM universe, where the equation of state for dark energy is a constant parameter that can differ from minus one (its $\Lambda$CDM value); a $(w_0,w_a$CDM universe, in which the equation of state for dark energy is a function of time and is Taylor expanded  in the scale factor around today to first order, i.e.  the Chevallier-Polarski-Linder (CPL) parameterization $w=w_0+w_a(1-a)$; a kCDM universe which can have a spatial curvature different from zero, parameterized in terms of the corresponding fractional energy density $\Omega_{K}$. In the case of models that modify the equations for the evolution of perturbations, we analyze Chameleon-type scalar-tensor theories, $f(R)$ gravity and a time dependent parametrization of the growth rate. 
 
-@Alessandra: could you please fill in detail about the above three models as we discussed.
+We use the publicly available Einstein-Boltzmann solver MGCAMB~\cite{CAMB} to evolve the dynamics of scalar perturbations and obtain predictions to fit to our data set. The implementation of the non-clustering darke energy models is trivial. In the following we shall describe in more detail the implementation of the modified gravity models. 
+
+\subsection{Chameleon models}
+Chameleon-type scalar-tensor theories are characterized by  an additional scalar field which has a standard kinetic term but is non-minimally coupled to the metric or, equivalently, is coupled to matter fields. The typical action for such theories reads
+\be\label{Einstein_action_text}
+S_E=\int d^4x\sqrt{-\tilde{g}}\l[\f{M_P^2}{2}\tilde{R}-\f{1}{2}\tilde{g^{\mu\nu}}(\tilde{\nabla}_{\mu}\phi)\tilde{\nabla}_{\nu}\phi-V(\phi)\r]+S_i\l(\chi_i,e^{-\kappa\alpha_i(\phi)}\tilde{g}_{\mu\nu}\r)\,,
+\ee
+where $\alpha_i(\phi)$ is the coupling between the scalar field $\phi$ and the i-th matter species. The coupling(s) can be a non-linear function(s) of the field $\phi$. Since we are dealing with clustering of matter in the late universe, it is safe to consider one coupling, i.e. to dark matter; that amounts to neglecting differences between baryons and dark matter, or simply neglecting baryons, which is safe for the observables under consideration. 
+
+In the limit in which the coupling is a linear function of the scalar field, $\alpha(\phi)=\beta_1\phi$ and we assume a power law evolution for the mass of the scalar field,  the dynamics of linear scalar perturbations in the quasi-static regime can be well represented  by the following parametrization introduced by~\cite{Bertschinger:2008zb}, commonly dubbed `BZ' and implemented in MGCAMB~\cite{Hojjati:2011ix,MGCAMB}:
+\be\label{mu_BZ_gen}
+\mu_{\rm BZ}=\f{1+\beta_1\lambda_1^2\,k^2a^s}{1+\lambda_1^2\,k^2a^s}
+\ee
+where $\beta_1$ parametrizes the constant coupling and $\lambda_1^2 a^{s+2}$ the inverse of the squared mass scale. This is a slight generalization of~(\ref{mu_BZ}). It does so in terms of three parameters $\{\beta_1,\lambda_1,s\}$. 
+
+In summary, to treat the broad class of Chameleon-type theories we have the following options:
+s
+
+\subsection{f(R) gravity}
+For $f(R)$ theories, the coupling is universal and linear, $\alpha=\sqrt{2/3}\,\phi$
+\subsection{Linder's $\gamma_L$ parametrization}
 
 
